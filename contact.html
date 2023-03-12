@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DONATE FOR SMILE</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            box-sizing: border-box;
+            border-radius: 50px;
+            border-collapse: separate;
+            border-width: 2px;
+        }
+
+        .controw1 {
+            float: left;
+            width: 40%;
+            align-items: center;
+            padding: 50px;
+            padding-left: 200px;
+            height: 550px;
+            /* Should be removed. Only for demonstration */
+        }
+
+        .controw2 {
+            float: right;
+            width: 50%;
+            align-items: center;
+            padding: 60px;
+            height: 550px;
+            /* Should be removed. Only for demonstration */
+        }
+
+        /* Clear floats after the columns */
+        .concontainer:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm my-2">
+        <img src="logo.webp" width="70" height="70" class="d-inline-block align-top" alt="">
+        <a class="navbar-brand ml-5" href="#">NAGESHWARI HATTI</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <i class="fas fa-bars" style="color: #fff;font-size: 150%;"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                <li class="nav-item active"><a class="nav-link" href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="concontainer" style="padding: 8px; margin:5px;">
+        <div class="controw1">
+            <img src="contcat.jpg" width="500px" height="500px" alt="IMG">
+        </div>
+        <div class="controw2">
+            <form class="contact100-form validate-form" data-netlify="true">
+                <span class="contact100-form-title">
+                    Connect With Us.....
+                </span>
+
+                <div class="wrap-input100 validate-input" data-validate="Name is required">
+                    <input class="input100" type="text" name="name" placeholder="Name">
+                    <span class="focus-input100"></span>
+                    <span class="symbol-input100">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                    </span>
+                </div>
+
+                <div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
+                    <input class="input100" type="text" name="email" placeholder="Email">
+                    <span class="focus-input100"></span>
+                    <span class="symbol-input100">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                    </span>
+                </div>
+
+                <div class="wrap-input100 validate-input" data-validate="Message is required">
+                    <textarea class="input100" name="message" placeholder="Message"></textarea>
+                    <span class="focus-input100"></span>
+                </div>
+
+                <div class="container-contact100-form-btn">
+                    <button type="button" class="contact100-form-btn">
+                        Send
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <script>
+        $('.js-tilt').tilt({
+            scale: 1.1
+        })
+    </script>
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/c252d9c8b4.js" crossorigin="anonymous"></script>
+    <script src="/js_files/donate.js"></script>
+
+
+
+    <footer>
+        <p style="font-size: 12px;">@2023 Copyright<i class="fa fa-copyright" aria-hidden="true"> Nageshwari Hatti
+            </i></p>
+    </footer>
+
+
+</body>
+
+</html>
